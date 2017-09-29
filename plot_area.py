@@ -14,8 +14,6 @@ class PlotArea(QWidget):
         self.blines = []
         self.polygons = []
 
-        self.make_bline_flag = False
-
     def MovePoints(self, dst):
         dst.append(self.points[::])
         self.points.clear()
